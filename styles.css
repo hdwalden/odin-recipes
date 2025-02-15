@@ -4,7 +4,11 @@ body {
 
 h1 {
     text-align: center;
-    color: cornflowerblue;
+    color: rgb(79, 54, 22);
+    background-color: rgb(209, 161, 127);
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h1,
@@ -15,4 +19,20 @@ ul {
 
 li {
     font-size: x-large;
+}
+
+.menu {
+    padding: 30px;
+    background-color: rgb(209, 161, 127);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid rgb(102, 70, 11);
+}
+
+.ricetta {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid rgb(102, 70, 11);
+    background-color: burlywood;
 }
